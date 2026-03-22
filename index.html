@@ -5,99 +5,150 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lumi Threads Supply Chain Analysis</title>
 
-    <!-- Bootstrap -->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Bootstrap CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
 
-    <!-- AOS Animation (CDN) -->
-    <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
-
-    <!-- Your Custom CSS -->
-    <link rel="stylesheet" href="css/style.css">
+    <style>
+        body {
+            background-color: #f8f9fa;
+        }
+        .hero {
+            padding: 60px 0;
+            text-align: center;
+        }
+        .card {
+            border-radius: 12px;
+        }
+        footer {
+            margin-top: 50px;
+            padding: 20px;
+            text-align: center;
+            color: gray;
+        }
+    </style>
 </head>
 
 <body>
 
-<!-- ===== NAVBAR ===== -->
-<nav class="navbar navbar-light bg-white shadow-sm">
-  <div class="container">
-    <span class="navbar-brand fw-bold">Lumi Threads</span>
-  </div>
-</nav>
-
-<!-- ===== HERO SECTION ===== -->
-<section class="container text-center my-5">
-    <h1 class="fw-bold">Supply Chain Optimization</h1>
-    <p class="lead text-muted">
-        An analysis of supplier performance, inventory management, and logistics efficiency.
+<!-- HERO SECTION -->
+<div class="container hero">
+    <h1 class="fw-bold">Lumi Threads Supply Chain Optimization</h1>
+    <p class="text-muted">
+        An analysis of supplier performance, inventory management, and logistics efficiency
     </p>
-</section>
 
-<!-- ===== MAIN CONTENT ===== -->
-<div class="container">
-
-    <!-- Project Overview -->
-    <div class="section" data-aos="fade-up">
-        <h2>Project Overview</h2>
-        <p>
-            This project analyzes the supply chain of Lumi Threads, a retail company specializing in crocheted clothing and accessories.
-            The goal was to identify inefficiencies in supplier performance, transportation costs, and inventory management.
-        </p>
-    </div>
-
-    <!-- Dashboard -->
-    <div class="section" data-aos="fade-up">
-        <h2>Dashboard</h2>
-        <img src="the dashboard.png" alt="Supply Chain Dashboard "class="img-fluid">
-    </div>
-
-    <!-- Key Insights -->
-    <div class="section" data-aos="fade-up">
-        <h2>Key Insights</h2>
-        <ul>
-            <li>High stockout rate indicates inventory inefficiencies</li>
-            <li>YarnCraft Co contributes most to supply shortages</li>
-            <li>Supplier delivery times are inconsistent</li>
-            <li>Transportation costs vary across suppliers</li>
-            <li>Backorders delay customer fulfillment</li>
-        </ul>
-    </div>
-
-    <!-- Tools Used -->
-    <div class="section" data-aos="fade-up">
-        <h2>Tools Used</h2>
-        <div class="row text-center">
-            <div class="col-md-3">Power BI</div>
-            <div class="col-md-3">Excel</div>
-            <div class="col-md-3">Data Analysis</div>
-            <div class="col-md-3">Supply Chain Optimization</div>
-        </div>
-    </div>
-
-    <!-- Download -->
-    <div class="section text-center" data-aos="fade-up">
-        <h2>Download Report</h2>
-        <a href="C:\Users\leele\OneDrive\Attachments\supply-chain-folder\Presentation.pdf" class="btn">Download Full Report</a>
-    </div>
-
+    <a href="Presentation.pdf" class="btn btn-dark mt-3">Download Report</a>
 </div>
 
-<!-- ===== FOOTER ===== -->
-<footer class="text-center mt-5 mb-3 text-muted">
-    <p>© 2026 Lumi Threads | Supply Chain Project</p>
+<!-- KEY METRICS -->
+<div class="container my-5">
+    <h3 class="text-center mb-4">Key Metrics</h3>
+    <div class="row text-center">
+
+        <div class="col-md-3">
+            <div class="card p-3 shadow-sm">
+                <h4>43%</h4>
+                <p>Stockout Rate</p>
+            </div>
+        </div>
+
+        <div class="col-md-3">
+            <div class="card p-3 shadow-sm">
+                <h4>7.38</h4>
+                <p>Avg Lead Time</p>
+            </div>
+        </div>
+
+        <div class="col-md-3">
+            <div class="card p-3 shadow-sm">
+                <h4>R1.88K</h4>
+                <p>Avg Transport Cost</p>
+            </div>
+        </div>
+
+        <div class="col-md-3">
+            <div class="card p-3 shadow-sm">
+                <h4>40</h4>
+                <p>Total Orders</p>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<!-- PROJECT OVERVIEW + INSIGHTS -->
+<div class="container">
+    <div class="row g-4">
+
+        <div class="col-md-6">
+            <div class="card p-4 shadow-sm">
+                <h4>Project Overview</h4>
+                <p>
+                    This project analyzes the supply chain of Lumi Threads, a retail company specializing
+                    in crocheted clothing and accessories. The objective was to identify inefficiencies
+                    in supplier performance, transportation costs, and inventory management.
+                </p>
+            </div>
+        </div>
+
+        <div class="col-md-6">
+            <div class="card p-4 shadow-sm">
+                <h4>Key Insights</h4>
+                <ul>
+                    <li>High stockout rate indicates inventory inefficiencies</li>
+                    <li>YarnCraft Co contributes most to supply shortages</li>
+                    <li>Supplier delivery times are inconsistent</li>
+                    <li>Transportation costs vary across suppliers</li>
+                    <li>Backorders delay customer fulfillment</li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<!-- DASHBOARD -->
+<div class="container my-5 text-center">
+    <h3 class="mb-4">Dashboard</h3>
+    <img src="the dashboard.png" class="img-fluid rounded shadow" alt="Dashboard">
+</div>
+
+<!-- TOOLS -->
+<div class="container my-5">
+    <h3 class="text-center mb-4">Tools & Skills</h3>
+    <div class="row text-center">
+
+        <div class="col-md-3">
+            <div class="card p-3 shadow-sm">
+                <p>Power BI</p>
+            </div>
+        </div>
+
+        <div class="col-md-3">
+            <div class="card p-3 shadow-sm">
+                <p>Excel</p>
+            </div>
+        </div>
+
+        <div class="col-md-3">
+            <div class="card p-3 shadow-sm">
+                <p>Data Analysis</p>
+            </div>
+        </div>
+
+        <div class="col-md-3">
+            <div class="card p-3 shadow-sm">
+                <p>Supply Chain Optimization</p>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<!-- FOOTER -->
+<footer>
+    <p>© 2026 Lee Leshilo | Supply Chain Project</p>
 </footer>
-
-<!-- ===== SCRIPTS ===== -->
-
-<!-- AOS JS (CDN) -->
-<script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
-
-<!-- Initialize AOS -->
-<script>
-  AOS.init({
-    duration: 1000,
-    once: true
-  });
-</script>
 
 </body>
 </html>
