@@ -1,9 +1,9 @@
-# Lumi-Threads-supply-chain-analysis
-Supply chain optimisation analysis using Power BI, Excel, and HTML
+
 # Lumi Threads Supply Chain Optimisation
+Supply chain optimisation analysis using Power BI, Excel, and HTML
 
 ## Overview
-This project analszes supply chain inefficiencies in a retail business using Power BI.
+This project analyses supply chain inefficiencies in a retail business using Power BI.
 
 ## Key Features
 - Supply chain risk analysis
